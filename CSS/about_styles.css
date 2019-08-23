@@ -5,6 +5,10 @@ body {
 .container {
   margin: 0 auto;
   width: 80%;
+  padding: 20px;
+}
+.content {
+  padding-top: 100px;
 }
 .header h1 {
   text-align: center;
@@ -49,4 +53,28 @@ li {
 .skills h3 {
   text-align: center;
   text-transform: uppercase;
+}
+/*nav*/
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+nav {
+  position: fixed;
+  width: 100% !important;
+  top: 0;
+  left: 0;
+}
+
+nav a {
+  transition: 600ms;
+  -webkit-transition: color 600ms;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ff0;
+  text-decoration: none;
 }
