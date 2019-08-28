@@ -9,3 +9,20 @@
   text-align: center;
   height: 100vh;
 }
+/*FAQS*/
+.card-header {
+  background: #5d37a8;
+}
+.card-header button {
+  color: #ffffff;
+}
+.card-body {
+  font-size: 18px;
+}
+/* Carousel */
+#carouselExampleIndicators {
+  padding-top: 65px;
+}
+nav {
+  z-index: 1;
+}
